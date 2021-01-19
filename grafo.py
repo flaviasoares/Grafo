@@ -33,10 +33,10 @@ def menu():
         linha = df.iloc[linha_aleatoria]
 
         #AQUI chame a função para adicionar as linhas no grafo
-        v = Vertice.adiciona_adjacente(data)
+        Vertice(linha)
     
     # AQUI chame a função para mostrar todos os vértices dentro do grafo
-    v.mostra_adjacentes()
+    mostra_adjacentes()
     vertice1 = input("Escolha o vértice inicial:\n")
     vertice2 = input("Escolha o vértice final:\n")
     
